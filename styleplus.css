@@ -1,0 +1,13 @@
+
+
+body{
+    background-image: url("123k.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+    font-family: Arial;
+   
+}
+
+div{
+    margin: 0 auto;
+}
