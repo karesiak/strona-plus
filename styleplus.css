@@ -1,26 +1,55 @@
 
 
 body{
-    background-image: url("123k.jpg");
+    background-image: url("imagesplus/backgrounddenji2.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
     font-family: Arial;
+    color:aliceblue;
    
 }
 
 header{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
     background-color: rgba(216, 33, 33, 0.671);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
 } 
+.left{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+}
+.right{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.301);
+}
 
 .profile{
     width: 250px; height: 250px;
-    border-radius: 0%;}
+    border-radius: 50%;
+}
+
+.full-width{
+    align-self: flex-end;
+    
+    width: 100%;
+    background-color: blue;
+}
 
 
 main {
-    background-color: rgba(205, 218, 30, 0.685)
+    background-color: rgba(205, 218, 30, 0.685);
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 20px;
+    padding: 10px;
 }    
 .tekst{
     text-align: center;
