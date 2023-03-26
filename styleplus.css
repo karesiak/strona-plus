@@ -42,6 +42,11 @@ header{
     width: 240px; height: 240px;
     border-radius: 50%;
 }
+.gora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .podgora{
     background-color: aliceblue;
@@ -108,9 +113,4 @@ main nav ul li ul li a{
 }
 main nav ul li ul li a:hover{
     background-color: #948a8a;
-}
-.gora{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
