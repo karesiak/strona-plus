@@ -20,11 +20,7 @@ header{
     border-bottom-right-radius: 0px;   
 }
   
-.gora{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .left{
     text-align: center;
@@ -112,4 +108,9 @@ main nav ul li ul li a{
 }
 main nav ul li ul li a:hover{
     background-color: #948a8a;
+}
+.gora{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
