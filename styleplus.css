@@ -42,6 +42,7 @@ header{
 
 .profile{
     margin-top: 12px;
+    margin-bottom: 12px;
     width: 240px; height: 240px;
     border-radius: 50%;
 }
@@ -56,40 +57,59 @@ header{
     border-bottom-right-radius: 20px;
     overflow: hidden;
 }
-.menu{
-    background-color: rgb(42, 180, 223);
-    margin-left: 40px;
-    margin-right: 40px;
-}
-ul{
-    
 
-}
-
-ul li{
-list-style: none;
-margin: 0;
-padding: 0;
-}
-
-main ul li a{
-    text-decoration: none;
-    display: inline-block;
-    
-
-}
 main {
     background-color: rgba(205, 218, 30, 0.685);
     margin-left: 40px;
     margin-right: 40px;
     border-radius: 20px;
-    padding: 10px;
     border: 3px solid rgb(243, 242, 242);
+    padding-bottom: 200px;
 }    
-.tekst{
-    text-align: center;
-    background-color: rgb(187, 107, 16);
+nav{ 
+    margin-top: 40px;
+    padding:  40px;;
+    background-color: rgb(90, 90, 248)
 }
 
-
+nav ul{
+    
+    padding: 4px 14px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+nav ul li a {
+    display: block;
+    font-family: arial;
+    color: #fff;
+    font-size: 25px;
    
+    text-decoration: none;
+
+}
+nav ul li ul {  
+    
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 10%;
+    padding: 10px;
+}
+nav ul li:hover ul{  
+    display: block;
+
+}
+
+main nav ul li ul li a{
+    padding: 20px 15px;
+    color:black;
+}
+main nav ul li ul li a:hover{
+    background-color: #948a8a;
+}
