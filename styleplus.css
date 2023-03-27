@@ -46,13 +46,13 @@ header{
     width: 240px; height: 240px;
     border-radius: 50%;
 }
-.gora{
+.top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.podgora{
+.undertop{
     background-color: aliceblue;
     color: black;
     text-align: center;
